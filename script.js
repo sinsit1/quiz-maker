@@ -212,7 +212,9 @@ const tema3 = [
     {
         "question": "¿Un factor que influye en la elección de las estrategias metodológicas?",
         "options": [
-            {"text": "a) Metas Educativas", "correct": true}
+            {"text": "a) Metas Educativas", "correct": true},
+            {"text": "b) El grupo de Aprendizaje", "correct": false},
+            {"text": "c) La resolución de conflicto", "correct": false}
         ]
     },
     {
