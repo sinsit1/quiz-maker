@@ -423,8 +423,16 @@ function updateScoreDisplay() {
     scoreDisplay.innerHTML = `Puntuación: ${score} de ${questions.length}`;
 }
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Intercambiar elementos
+    }
+}
+
 function loadTheme3() {
     questions = tema3; // Cargar las preguntas del tema 3
+    shuffleArray(questions); // Mezclar las preguntas
     currentQuestionIndex = 0; // Reiniciar el índice de preguntas
     score = 0; // Reiniciar la puntuación
     updateScoreDisplay(); // Actualiza el puntaje al cargar el tema
