@@ -311,93 +311,190 @@ const evaluacion = [
         {
             "question": "UD1 - Según los apuntes del MF, 'La estimación subjetiva de conocimientos, aptitudes y rendimiento del alumnado' es la definición de...",
             "options": [
-                {"text": "a) Evaluación final", "correct": true},
-                {"text": "b) Cabecera de identificación", "correct": false},
-                {"text": "c) Actividades de evaluación continua", "correct": false},
-                {"text": "d) Acciones de evaluación de tutoría presenciales", "correct": false}
-            ]
-        },
-        {
-            "question": "UD1 - La evaluación con referencia a la subjetividad, la norma, el grupo y el criterio son tipos de evaluación. ¿Cuál de ellas es correcta?",
-            "options": [
-                {"text": "a) La evaluación con referencia a la subjetividad", "correct": false},
-                {"text": "b) La evaluación con referencia a la norma", "correct": true},
-                {"text": "c) La evaluación con referencia al grupo", "correct": false},
-                {"text": "d) La evaluación con referencia al criterio", "correct": false}
-            ]
-        },
-        {
-            "question": "UD1 - Según los apuntes del MF, 'La comparación del resultado individual con el grupo de referencia' es...",
-            "options": [
-                {"text": "a) Evaluación con referencia a la norma", "correct": true},
-                {"text": "b) Evaluación con referencia al criterio", "correct": false},
-                {"text": "c) Evaluación con referencia a la subjetividad", "correct": false},
-                {"text": "d) Evaluación diagnóstica", "correct": false}
-            ]
-        },
-        {
-            "question": "UD1 - Según los apuntes del MF, ¿cuál NO es una de las modalidades de evaluación?",
-            "options": [
-                {"text": "a) En función del momento", "correct": false},
-                {"text": "b) En función de quién la realiza", "correct": false},
-                {"text": "c) En función de la norma", "correct": true},
-                {"text": "d) En función de la finalidad", "correct": false}
+                { "text": "a) Medir", "correct": false },
+                { "text": "b) Categorizar", "correct": false },
+                { "text": "c) Evaluar", "correct": true },
+                { "text": "d) Valorar", "correct": false }
             ]
         },
         {
             "question": "UD1 - ¿Qué elemento se incluye de forma diferenciada en la planificación de la evaluación en la modalidad de teleformación, que no está en la presencial?",
             "options": [
-                {"text": "a) Evaluación inicial", "correct": false},
-                {"text": "b) Evaluación sumativa", "correct": false},
-                {"text": "c) Evaluación formativa", "correct": false},
-                {"text": "d) Cabecera de identificación", "correct": true}
+                { "text": "a) Evaluación final", "correct": false },
+                { "text": "b) Cabecera de identificación", "correct": false },
+                { "text": "c) Actividades de evaluación continua", "correct": false },
+                { "text": "d) Acciones de evaluación de tutoría presenciales", "correct": true }
+            ]
+        },
+        {
+            "question": "UD1 - Según los apuntes del MF, 'La comparación del resultado individual con el grupo de referencia' es...",
+            "options": [
+                { "text": "a) La evaluación con referencia a la subjetividad", "correct": false },
+                { "text": "b) La evaluación con referencia a la norma", "correct": true },
+                { "text": "c) La evaluación con referencia al grupo", "correct": false },
+                { "text": "d) La evaluación con referencia al criterio", "correct": false }
+            ]
+        },
+        {
+            "question": "UD1 - Según los apuntes del MF, ¿cuál NO es una de las modalidades de evaluación?",
+            "options": [
+                { "text": "a) En función del momento", "correct": false },
+                { "text": "b) En función de quién la realiza", "correct": false },
+                { "text": "c) En función de la norma", "correct": true },
+                { "text": "d) En función de la finalidad", "correct": false }
             ]
         },
         {
             "question": "UD1 - Según la normativa que regula los CPs, ¿qué porcentaje de asistencia mínima debe haber para no perder el derecho a la evaluación final?",
             "options": [
-                {"text": "a) 70% sin excepciones", "correct": false},
-                {"text": "b) 75% sin excepciones", "correct": false},
-                {"text": "c) 70% con excepciones", "correct": false},
-                {"text": "d) 75% con excepciones", "correct": true}
+                { "text": "a) Del 70% sin excepciones", "correct": false },
+                { "text": "b) Del 75% sin excepciones", "correct": false },
+                { "text": "c) Del 70% con excepciones", "correct": false },
+                { "text": "d) Del 75% con excepciones", "correct": true }
             ]
         },
         {
             "question": "UD1 - Según los apuntes del MF, la evaluación orientadora se realiza...",
             "options": [
-                {"text": "a) Durante la formación", "correct": true},
-                {"text": "b) Depende del criterio docente", "correct": false},
-                {"text": "c) Al finalizar la formación", "correct": false},
-                {"text": "d) Antes de empezar", "correct": false}
+                { "text": "a) En función del momento", "correct": false },
+                { "text": "b) En función de la finalidad", "correct": true },
+                { "text": "c) En función de quién la realiza", "correct": false },
+                { "text": "d) En función de la norma", "correct": false }
             ]
         },
         {
             "question": "UD1 - Según los apuntes del MF, la evaluación sumativa se realiza...",
             "options": [
-                {"text": "a) Durante la formación", "correct": false},
-                {"text": "b) Depende del criterio docente", "correct": false},
-                {"text": "c) Al finalizar la formación", "correct": true},
-                {"text": "d) Antes de empezar", "correct": false}
+                { "text": "a) Durante la formación", "correct": true },
+                { "text": "b) Depende del criterio docente", "correct": false },
+                { "text": "c) Al finalizar la formación", "correct": false },
+                { "text": "d) Antes de empezar", "correct": false }
             ]
         },
         {
             "question": "UD1 - Según la normativa que regula los CPs, ¿cuántas fases tiene el proceso de evaluación y acreditación de competencias profesionales?",
             "options": [
-                {"text": "a) 4", "correct": false},
-                {"text": "b) 5", "correct": false},
-                {"text": "c) 3", "correct": true},
-                {"text": "d) 6", "correct": false}
+                { "text": "a) 4", "correct": false },
+                { "text": "b) 5", "correct": true },
+                { "text": "c) 3", "correct": false },
+                { "text": "d) 6", "correct": false }
             ]
         },
         {
-            "question": "UD1 - En cuanto a la documentación del MF, ¿Qué documento NO forma parte de aquellos a cumplimentar para CPs?",
+            "question": "UD1 - En cuanto a la documentación del MF, ¿qué documento NO forma parte de aquellos a cumplimentar para CPs?",
             "options": [
-                {"text": "a) Planificación de la evaluación", "correct": false},
-                {"text": "b) Programación didáctica", "correct": true},
-                {"text": "c) Acta de evaluación", "correct": false},
-                {"text": "d) Evaluación individualizada", "correct": false}
+                { "text": "a) Planificación de la evaluación", "correct": false },
+                { "text": "b) Programación didáctica", "correct": true },
+                { "text": "c) Acta de evaluación", "correct": false },
+                { "text": "d) Evaluación individualizada", "correct": false }
             ]
         },
+        {
+            "question": "UD1 - Según los apuntes del MF, ¿qué elemento NO forma parte de las características técnicas del proceso de evaluación?",
+            "options": [
+                { "text": "a) Efectividad", "correct": false },
+                { "text": "b) Subjetividad", "correct": true },
+                { "text": "c) Fiabilidad", "correct": false },
+                { "text": "d) Sistematicidad", "correct": false }
+            ]
+        },
+    
+
+            {
+                "question": "UD2 - ¿Qué debe incluir el pie de página de una prueba objetiva según el manual?",
+                "options": [
+                    {"text": "a) Referencia a criterios de evaluación", "correct": false},
+                    {"text": "b) Fecha de corrección", "correct": false},
+                    {"text": "c) Logos de las entidades financiadoras", "correct": true},
+                    {"text": "d) Instrucciones específicas", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Cómo debe vincularse la tabla de especificaciones con los objetivos de aprendizaje?",
+                "options": [
+                    {"text": "a) Vinculando contenidos básicos únicamente", "correct": false},
+                    {"text": "b) Mediante el análisis y ponderación de niveles cognitivos", "correct": true},
+                    {"text": "c) Solo con los criterios de evaluación", "correct": false},
+                    {"text": "d) Relacionándola exclusivamente con el nivel de síntesis", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué tipo de preguntas permite evaluar habilidades de síntesis en aprendizajes complejos?",
+                "options": [
+                    {"text": "a) Ejercicios interpretativos", "correct": false},
+                    {"text": "b) Ensayos", "correct": true},
+                    {"text": "c) Verdadero/falso", "correct": false},
+                    {"text": "d) Selección múltiple", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué nivel de preguntas suele tener mayor peso en las evaluaciones?",
+                "options": [
+                    {"text": "a) Intermedias", "correct": true},
+                    {"text": "b) Fáciles", "correct": false},
+                    {"text": "c) Difíciles", "correct": false},
+                    {"text": "d) Muy difíciles", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué determina la cantidad de preguntas a realizar por criterio de evaluación en la tabla de especificaciones?",
+                "options": [
+                    {"text": "a) La cantidad de alumnos/as evaluados/as", "correct": false},
+                    {"text": "b) El número de niveles cognitivos cubiertos", "correct": false},
+                    {"text": "c) La ponderación asignada a cada criterio", "correct": true},
+                    {"text": "d) La duración de la prueba", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué nivel de la Taxonomía de Bloom implica reunir información para formar un todo?",
+                "options": [
+                    {"text": "a) Evaluación", "correct": false},
+                    {"text": "b) Comprensión", "correct": false},
+                    {"text": "c) Análisis", "correct": true},
+                    {"text": "d) Síntesis", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué herramienta facilita la alineación entre los contenidos evaluados y los objetivos del aprendizaje, de cara al diseño de las pruebas de evaluación?",
+                "options": [
+                    {"text": "a) La tabla de especificaciones", "correct": true},
+                    {"text": "b) La estructura de la prueba", "correct": false},
+                    {"text": "c) El esquema de ponderación", "correct": false},
+                    {"text": "d) La rúbrica de calificación", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué estrategia es fundamental al redactar ítems de correspondencia?",
+                "options": [
+                    {"text": "a) Asegurar que todos los conceptos tengan opciones de respuesta claras", "correct": true},
+                    {"text": "b) Permitir combinaciones abiertas entre conceptos", "correct": false},
+                    {"text": "c) Limitar los conceptos a vincular a un solo grupo", "correct": false},
+                    {"text": "d) Usar términos que puedan interpretarse de múltiples formas", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Qué elemento NO forma parte del encabezado de una prueba objetiva?",
+                "options": [
+                    {"text": "a) Título de la prueba", "correct": false},
+                    {"text": "b) Referencia a la rúbrica de calificación", "correct": true},
+                    {"text": "c) Identificación del alumno/a", "correct": false},
+                    {"text": "d) Nombre del docente", "correct": false}
+                ]
+            },
+            {
+                "question": "UD2 - ¿Cuál es un error común al elaborar preguntas de selección múltiple?",
+                "options": [
+                    {"text": "a) Alternar las respuestas correctas entre las opciones a, b, c y d", "correct": false},
+                    {"text": "b) Incluir respuestas incorrectas plausibles", "correct": false},
+                    {"text": "c) Formular opciones ambiguas o incompletas", "correct": true},
+                    {"text": "d) Usar enunciados claros y directos", "correct": false}
+                ]
+            },
+    
+        
+
+
+
     
     
         {
@@ -467,17 +564,17 @@ const evaluacion = [
             "question": "UD3 - Según los apuntes de la UD3, ¿Qué elemento NO contiene las instrucciones de realización específicas de una prueba final práctica?",
             "options": [
                 {"text": "a) Tareas concretas", "correct": false},
-                {"text": "b) Valor de cada apartado", "correct": false},
+                {"text": "b) Valor de cada apartado", "correct": true},
                 {"text": "c) Duración", "correct": false},
-                {"text": "d) Espacio de respuesta", "correct": true}
+                {"text": "d) Espacio de respuesta", "correct": false}
             ]
         },
         {
             "question": "UD3 - ¿Cuál NO es un tipo de escala de calificación?",
             "options": [
-                {"text": "a) Evaluativa", "correct": false},
+                {"text": "a) Evaluativa", "correct": true},
                 {"text": "b) Numérica", "correct": false},
-                {"text": "c) Descriptiva", "correct": true},
+                {"text": "c) Descriptiva", "correct": false},
                 {"text": "d) Ponderada", "correct": false}
             ]
         },
