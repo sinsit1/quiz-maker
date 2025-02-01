@@ -307,6 +307,283 @@ const tema3 = [
     }
 ];
 
+const evaluacion = [
+        {
+            "question": "UD1 - Según los apuntes del MF, 'La estimación subjetiva de conocimientos, aptitudes y rendimiento del alumnado' es la definición de...",
+            "options": [
+                {"text": "a) Evaluación final", "correct": true},
+                {"text": "b) Cabecera de identificación", "correct": false},
+                {"text": "c) Actividades de evaluación continua", "correct": false},
+                {"text": "d) Acciones de evaluación de tutoría presenciales", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - La evaluación con referencia a la subjetividad, la norma, el grupo y el criterio son tipos de evaluación. ¿Cuál de ellas es correcta?",
+            "options": [
+                {"text": "a) La evaluación con referencia a la subjetividad", "correct": false},
+                {"text": "b) La evaluación con referencia a la norma", "correct": true},
+                {"text": "c) La evaluación con referencia al grupo", "correct": false},
+                {"text": "d) La evaluación con referencia al criterio", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - Según los apuntes del MF, 'La comparación del resultado individual con el grupo de referencia' es...",
+            "options": [
+                {"text": "a) Evaluación con referencia a la norma", "correct": true},
+                {"text": "b) Evaluación con referencia al criterio", "correct": false},
+                {"text": "c) Evaluación con referencia a la subjetividad", "correct": false},
+                {"text": "d) Evaluación diagnóstica", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - Según los apuntes del MF, ¿cuál NO es una de las modalidades de evaluación?",
+            "options": [
+                {"text": "a) En función del momento", "correct": false},
+                {"text": "b) En función de quién la realiza", "correct": false},
+                {"text": "c) En función de la norma", "correct": true},
+                {"text": "d) En función de la finalidad", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - ¿Qué elemento se incluye de forma diferenciada en la planificación de la evaluación en la modalidad de teleformación, que no está en la presencial?",
+            "options": [
+                {"text": "a) Evaluación inicial", "correct": false},
+                {"text": "b) Evaluación sumativa", "correct": false},
+                {"text": "c) Evaluación formativa", "correct": false},
+                {"text": "d) Cabecera de identificación", "correct": true}
+            ]
+        },
+        {
+            "question": "UD1 - Según la normativa que regula los CPs, ¿qué porcentaje de asistencia mínima debe haber para no perder el derecho a la evaluación final?",
+            "options": [
+                {"text": "a) 70% sin excepciones", "correct": false},
+                {"text": "b) 75% sin excepciones", "correct": false},
+                {"text": "c) 70% con excepciones", "correct": false},
+                {"text": "d) 75% con excepciones", "correct": true}
+            ]
+        },
+        {
+            "question": "UD1 - Según los apuntes del MF, la evaluación orientadora se realiza...",
+            "options": [
+                {"text": "a) Durante la formación", "correct": true},
+                {"text": "b) Depende del criterio docente", "correct": false},
+                {"text": "c) Al finalizar la formación", "correct": false},
+                {"text": "d) Antes de empezar", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - Según los apuntes del MF, la evaluación sumativa se realiza...",
+            "options": [
+                {"text": "a) Durante la formación", "correct": false},
+                {"text": "b) Depende del criterio docente", "correct": false},
+                {"text": "c) Al finalizar la formación", "correct": true},
+                {"text": "d) Antes de empezar", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - Según la normativa que regula los CPs, ¿cuántas fases tiene el proceso de evaluación y acreditación de competencias profesionales?",
+            "options": [
+                {"text": "a) 4", "correct": false},
+                {"text": "b) 5", "correct": false},
+                {"text": "c) 3", "correct": true},
+                {"text": "d) 6", "correct": false}
+            ]
+        },
+        {
+            "question": "UD1 - En cuanto a la documentación del MF, ¿Qué documento NO forma parte de aquellos a cumplimentar para CPs?",
+            "options": [
+                {"text": "a) Planificación de la evaluación", "correct": false},
+                {"text": "b) Programación didáctica", "correct": true},
+                {"text": "c) Acta de evaluación", "correct": false},
+                {"text": "d) Evaluación individualizada", "correct": false}
+            ]
+        },
+    
+    
+        {
+            "question": "UD3 - En pruebas actitudinales, ¿cuál es el instrumento más comúnmente usado?",
+            "options": [
+                {"text": "a) Escalas numéricas", "correct": false},
+                {"text": "b) Listas de cotejo", "correct": false},
+                {"text": "c) Observación directa", "correct": true},
+                {"text": "d) Hojas de evaluación", "correct": false}
+            ]
+        },
+        {
+            "question": "UD3 - En pruebas procedimentales, ¿qué tarea es común y más sencilla?",
+            "options": [
+                {"text": "a) Describir un procedimiento", "correct": false},
+                {"text": "b) Ejecutar un procedimiento", "correct": false},
+                {"text": "c) Ejecutar una tarea", "correct": false},
+                {"text": "d) Identificar un procedimiento", "correct": true}
+            ]
+        },
+        {
+            "question": "UD3 - ¿Qué caracteriza a una escala de calificación ponderada?",
+            "options": [
+                {"text": "a) Se adapta a prioridades asignando pesos diferentes a los criterios", "correct": true},
+                {"text": "b) Es exclusivamente cualitativa", "correct": false},
+                {"text": "c) Evalúa mediante observación directa", "correct": false},
+                {"text": "d) Asigna una puntuación general para todos los criterios", "correct": false}
+            ]
+        },
+        {
+            "question": "UD3 - Según la UD3, ¿qué instrumento permite medir actitudes mediante opciones graduadas?",
+            "options": [
+                {"text": "a) Escalas de Likert", "correct": true},
+                {"text": "b) Lista de cotejo", "correct": false},
+                {"text": "c) Escalas ponderadas", "correct": false},
+                {"text": "d) Hoja de registro", "correct": false}
+            ]
+        },
+        {
+            "question": "UD3 - Según la UD3, ¿qué diferencia principal existe entre indicadores de desempeño e indicadores de resultado?",
+            "options": [
+                {"text": "a) Los indicadores de desempeño evalúan logros, mientras que los de resultado evalúan procesos", "correct": false},
+                {"text": "b) Los indicadores de desempeño se enfocan en procesos y actividades, mientras que los de resultado se enfocan en los logros", "correct": true},
+                {"text": "c) Ambos indicadores evalúan los mismos aspectos", "correct": false},
+                {"text": "d) Los indicadores de resultado solo se usan en teleformación", "correct": false}
+            ]
+        },
+        {
+            "question": "UD3 - El documento que permite a la persona docente observar y anotar comportamientos o actitudes específicas del alumnado durante una actividad es...",
+            "options": [
+                {"text": "a) Escala de Likert", "correct": false},
+                {"text": "b) Hoja de registro", "correct": true},
+                {"text": "c) Hoja de calificación", "correct": false},
+                {"text": "d) Escala de valoración", "correct": false}
+            ]
+        },
+        {
+            "question": "UD3 - ¿Cuál es un ejemplo de adaptación al medio en pruebas de teleformación?",
+            "options": [
+                {"text": "a) Tíring de documentación presencial", "correct": false},
+                {"text": "b) Uso de papel y lápiz", "correct": false},
+                {"text": "c) Observación directa del alumnado", "correct": false},
+                {"text": "d) Vídeos de simulación", "correct": true}
+            ]
+        },
+        {
+            "question": "UD3 - Según los apuntes de la UD3, ¿Qué elemento NO contiene las instrucciones de realización específicas de una prueba final práctica?",
+            "options": [
+                {"text": "a) Tareas concretas", "correct": false},
+                {"text": "b) Valor de cada apartado", "correct": false},
+                {"text": "c) Duración", "correct": false},
+                {"text": "d) Espacio de respuesta", "correct": true}
+            ]
+        },
+        {
+            "question": "UD3 - ¿Cuál NO es un tipo de escala de calificación?",
+            "options": [
+                {"text": "a) Evaluativa", "correct": false},
+                {"text": "b) Numérica", "correct": false},
+                {"text": "c) Descriptiva", "correct": true},
+                {"text": "d) Ponderada", "correct": false}
+            ]
+        },
+        {
+            "question": "UD3 - En la redacción de indicadores de desempeño, ¿qué elementos deben incluirse en orden?",
+            "options": [
+                {"text": "a) Objeto, acción y condición", "correct": false},
+                {"text": "b) Logros, resultados y evidencias", "correct": false},
+                {"text": "c) Acción, objeto y condición", "correct": true},
+                {"text": "d) Condición, objeto y acción", "correct": false}
+            ]
+        },
+            {
+                "question": "UD4 - ¿Cuál es la principal diferencia entre una técnica y un instrumento de evaluación?",
+                "options": [
+                    {"text": "a) El instrumento es cualitativo y la técnica es cuantitativa", "correct": false},
+                    {"text": "b) Son términos equivalentes y pueden usarse indistintamente", "correct": false},
+                    {"text": "c) La técnica indica el método de evaluación, mientras que el instrumento es la herramienta específica", "correct": true},
+                    {"text": "d) El instrumento define el procedimiento general y la técnica lo concreta", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según los apuntes de la UD4, aquellas que se centran en la comprensión y análisis de experiencias y percepciones del alumnado son...",
+                "options": [
+                    {"text": "a) Técnicas cuantitativas", "correct": false},
+                    {"text": "b) Técnicas para conocer la satisfacción", "correct": false},
+                    {"text": "c) Técnicas diagnósticas", "correct": false},
+                    {"text": "d) Técnicas cualitativas", "correct": true}
+                ]
+            },
+            {
+                "question": "UD4 - ¿Cuál de las siguientes técnicas se utiliza para evaluar la transferencia del aprendizaje al ámbito laboral?",
+                "options": [
+                    {"text": "a) Exámenes teórico prácticos", "correct": false},
+                    {"text": "b) Pruebas de opción múltiple", "correct": false},
+                    {"text": "c) Entrevistas a empleadores/as", "correct": true},
+                    {"text": "d) Encuestas de satisfacción", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según la normativa, ¿qué servicios tiene que tener la plataforma de formación?",
+                "options": [
+                    {"text": "a) Soporte técnico, respuesta en 48 horas máximo, sección FAQ, agente virtual", "correct": false},
+                    {"text": "b) Soporte técnico, respuesta en 48 horas máximo, manual de utilización, sección FAQ", "correct": true},
+                    {"text": "c) Soporte técnico, respuesta en 24 horas máximo, manual de utilización, sección FAQ", "correct": false},
+                    {"text": "d) Soporte técnico, respuesta en 48 horas máximo, manual de utilización, sección de consulta inmediata por agente virtual", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según los apuntes de la UD4, ¿qué elemento clave NO tienen las hojas de seguimiento?",
+                "options": [
+                    {"text": "a) Observaciones sobre dificultades", "correct": false},
+                    {"text": "b) Unión del alumno/a", "correct": false},
+                    {"text": "c) Perfil sociolaboral", "correct": true},
+                    {"text": "d) Actividades realizadas y pendientes", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según los apuntes de la UD4, es un instrumento estructurado con preguntas diseñadas para recopilar información específica sobre la formación...",
+                "options": [
+                    {"text": "a) Hoja de seguimiento", "correct": false},
+                    {"text": "b) Hoja de registro", "correct": false},
+                    {"text": "c) Cuestionario", "correct": true},
+                    {"text": "d) Escala de Likert", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - ¿Cuál es una característica de los criterios de evaluación?",
+                "options": [
+                    {"text": "a) Medibles", "correct": false},
+                    {"text": "b) Relevantes", "correct": false},
+                    {"text": "c) Todas son correctas", "correct": true},
+                    {"text": "d) Claros", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según la normativa, ¿qué característica del Plan de seguimiento se vincula con que se permita una evaluación en diferentes fases del proceso formativo?",
+                "options": [
+                    {"text": "a) Continuidad", "correct": true},
+                    {"text": "b) Flexibilidad", "correct": false},
+                    {"text": "c) Sistematizado", "correct": false},
+                    {"text": "d) Participación", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según la UD4, ¿Cuál de los siguientes NO es un tipo de indicador de evaluación?",
+                "options": [
+                    {"text": "a) Indicadores de ejecución", "correct": true},
+                    {"text": "b) Indicadores de proceso", "correct": false},
+                    {"text": "c) Indicadores de resultado", "correct": false},
+                    {"text": "d) Indicadores de impacto", "correct": false}
+                ]
+            },
+            {
+                "question": "UD4 - Según la normativa, ¿cuál NO es una obligación de las entidades de formación respecto a los planes de seguimiento?",
+                "options": [
+                    {"text": "a) Someterse a controles y auditorías de calidad", "correct": false},
+                    {"text": "b) Poseer la mejor herramienta para el seguimiento, sin dar pie a la obsolescencia virtual", "correct": true},
+                    {"text": "c) Comunicar cambios a la Administración de la titularidad o forma jurídica", "correct": false},
+                    {"text": "d) Colaborar con procesos de selección de participantes", "correct": false}
+                ]
+            }
+
+]
+
+
 function handleFileSelect(event) {
     const file = event.target.files[0];
     if (file && file.type === 'application/pdf') {
@@ -431,7 +708,7 @@ function shuffleArray(array) {
 }
 
 function loadTheme3() {
-    questions = tema3; // Cargar las preguntas del tema 3
+    questions = evaluacion; // Cargar las preguntas del json
     shuffleArray(questions); // Mezclar las preguntas
     currentQuestionIndex = 0; // Reiniciar el índice de preguntas
     score = 0; // Reiniciar la puntuación
