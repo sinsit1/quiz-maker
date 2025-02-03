@@ -450,8 +450,8 @@ const evaluacion = [
                 "options": [
                     {"text": "a) Evaluación", "correct": false},
                     {"text": "b) Comprensión", "correct": false},
-                    {"text": "c) Análisis", "correct": true},
-                    {"text": "d) Síntesis", "correct": false}
+                    {"text": "c) Análisis", "correct": false},
+                    {"text": "d) Síntesis", "correct": true}
                 ]
             },
             {
